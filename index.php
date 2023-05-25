@@ -26,6 +26,9 @@
           if(isset($_GET["info"])){
             echo "Excuse added successfully";
           }
+          if(isset($_GET["error"])){
+            echo "Error";
+          }
         ?>
       </div> </section>  
         
